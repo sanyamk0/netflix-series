@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(224, 239, 252);
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 13px;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 18rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card:hover {
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  height: 70%;
+  width: 100%;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+.card_title {
+  font-size: 2rem;
+  font-weight: 60;
+  margin: 1rem;
+}
+
+.card_footer {
+  height: 7%;
+  width: 50%;
+}
+.card_footer button {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+
+.card_footer button:hover {
+  cursor: pointer;
+}
