@@ -1,6 +1,6 @@
 import React from "react";
-import Cardholder from "./Cardholder";
-import Heading from "./Heading";
+import Cardholder from "./components/Cardholder";
+import Heading from "./components/Heading";
 
 function App() {
   return (

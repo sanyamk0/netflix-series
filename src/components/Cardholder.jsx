@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Sdata from "./Sdata.jsx";
-import "./Cardholder.css";
+import "../styles/Cardholder.css";
 
 function Cardholder() {
   return (
